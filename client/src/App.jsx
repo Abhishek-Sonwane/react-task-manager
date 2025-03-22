@@ -1,7 +1,11 @@
-import "./App.css";
+import Login from "./pages/Login";
 
-function App() { 
-  return <div className="text-xl text-purple-500 font-bold ">Hello</div>;
+function App() {
+  return (
+    <div>
+      <Login />
+    </div>
+  );
 }
 
 export default App;
